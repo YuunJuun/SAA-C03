@@ -59,4 +59,8 @@ Amazon SQS : 메시지를 큐에 쌓아두고, 소비자가 가져가서 처리�
 
 SMB : 네트워크로 연결된 다른 컴퓨터의 폴더와 파일을 공유하는 프로토콜
 
-S3 Glacier depp archive : 가장 저렴한, 장기 보관 전용 클래스, 1년에 한 두번 꺼낼까 말까한 데이터 보관
+S3 Glacier deep archive : 가장 저렴한, 장기 보관 전용 클래스, 1년에 한 두번 꺼낼까 말까한 데이터 보관
+
+fsx for windows file server: 사내 windows 공유 폴더를 서버 관리 없이 aws 에서 그대로 쓸 수 있게 해줌
+
+secrets manager : 데이터베이스 비밀번호, api 키 같은 민감한 정보를 안전하게 저장하고, 자동으로 교체
