@@ -68,4 +68,16 @@ secrets manager : 데이터베이스 비밀번호, api 키 같은 민감한 정�
 RDS : SQL을 AWS가 대신 관리
 
 Amazon Aurora : 클라우드용으로 새로 설계한 mysql 호환 관계형 데이터 베이스
-			ㅇㄴㅇ 
+				mysql 대비 최대 5배, postgreSQL 대비 최대 3배 빠름
+
+Amazon GuardDuty : aws 계정과 워크로드에서 악의적인 활동이나 비정상적인 행동을 자동으로 찾아줌
+
+Traffic Mirroring : EC2 인스터스를 오가는 네트워크 트래픽을 복사해서, 보안/모니터링 장비로 보내 분석
+
+AWS Network Firewall : VPC 전체를 위한 관리형 네트워크 방화벽 서비스
+					VPC 로 나가는 트래픽을 상태 기반으로 검사하고, 차단하거나 허용하며,
+					침입 방지와 도메인 필터링까지 제공
+
+Firewall Manager : 여러 계정과 리소스에 걸쳐 방화벽 규칙과 보안 정책을 한곳에서 중앙 관리하고 적용
+
+Quicksight : 데이터를 시각화하고 대시보드로 만들어 주는 서버리스 BI 서비스
