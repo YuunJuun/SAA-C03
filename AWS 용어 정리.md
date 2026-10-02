@@ -64,3 +64,8 @@ S3 Glacier deep archive : 가장 저렴한, 장기 보관 전용 클래스, 1년
 fsx for windows file server: 사내 windows 공유 폴더를 서버 관리 없이 aws 에서 그대로 쓸 수 있게 해줌
 
 secrets manager : 데이터베이스 비밀번호, api 키 같은 민감한 정보를 안전하게 저장하고, 자동으로 교체
+
+RDS : SQL을 AWS가 대신 관리
+
+Amazon Aurora : 클라우드용으로 새로 설계한 mysql 호환 관계형 데이터 베이스
+			ㅇㄴㅇ 
