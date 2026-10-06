@@ -80,4 +80,5 @@ AWS Network Firewall : VPC 전체를 위한 관리형 네트워크 방화벽 서
 
 Firewall Manager : 여러 계정과 리소스에 걸쳐 방화벽 규칙과 보안 정책을 한곳에서 중앙 관리하고 적용
 
-Quicksight : 데이터를 시각화하고 대시보드로 만들어 주는 서버리스 BI 서비스/
+Quicksight : 데이터를 시각화하고 대시보드로 만들어 주는 서버리스 BI 서비스
+
