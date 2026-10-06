@@ -92,5 +92,6 @@ Quicksight : 데이터를 시각화하고 대시보드로 만들어 주는 서�
 
 어플라이언스 : 특정 기능 하나를 전담하도록 하드웨어와 소프트웨어를 미리 묶어 만든 전용 장비
 
-FSR (Fast Snapshot Restore) : 스냅샷으로 만든 EBS 볼륨이 처음부터 느
+FSR (Fast Snapshot Restore) : 스냅샷으로 만든 EBS 볼륨이 처음부터 느리지 않고 즉시 최고 성능을
+						내도록 준비해 두는 기능 
 
