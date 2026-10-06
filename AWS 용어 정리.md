@@ -2,6 +2,13 @@ s3 전송가속 : 클라이언트와 s3 사이의 업로드/다운로드 속도 
 
 s3 크로스 리전 복제 : 비동기 복제여서 지연이 높음
 
+s3 : 파일을 저장하는 창고 
+----스토리지 옵션----
+Standard : 자주 접근하는 데이터
+Intelligent-Tiering : 불규칙한 데이터
+Standard-IA : 드물게 접근
+One Zone-IA : 드물게 접근, 재생성 가능한 데이터
+
 AWS snowball edge : 대용량 데이터를 물리적인 장비에 담아 AWS로 옮기는 서비스
 
 Amazon EC2 인스턴스 : 가상서버
@@ -96,3 +103,7 @@ FSR (Fast Snapshot Restore) : 스냅샷으로 만든 EBS 볼륨이 처음부터 
 						내도록 준비해 두는 기능 
 
 CloudFront : 내 콘텐츠를 사용자와 가까운 엣지에 복사해두었다가 빠르게 전달해주는 것
+
+Cost Explorer : AWS 비용과 사용내역을 그래프로 보고 분석하며, 앞으로의 비용을 예측
+
+DynamoDB : 서버를 관리하지 않아도되고, 데이터가 아무리 ㅁ
