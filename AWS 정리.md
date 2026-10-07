@@ -129,6 +129,10 @@ AWS CloudTrail : AWS API 호출 기록
 
 AWS Shield : DDOS 공격으로부터 aws 리소스를 보호해주는 서비스
 
+NAT Gateway : 퍼블릭 서버에 배치하고, 프라이빗 서브넷의 서버들이 밖으로 나갈 수 있게 해준다
+
+vpc 엔드포인트 : 인터넷을 거치지않고 aws 서비스 연결
+
 
 
 
