@@ -143,3 +143,8 @@ AWS Systems Manager Patch Manager : EC2 인스턴스와 온프레미스 서버�
 								보안 패치를 자동으로 점검하고 한꺼번에 설치해주는 기능
 
 
+아카이브 : 자주 쓰진 않지만 삭제할 수 없는 데이터를 싸게 장기 보관
+
+S3 Object Lock
+
+
