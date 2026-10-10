@@ -213,6 +213,8 @@ OAI : CloudFront 만 S3에 접근하게 하고 , S3 주소로 직접접근을 �
 RDS Custom for Oracle : OS 접근과 DB 커스터마이징을 유지하면서, 백업/모니터링/자동 복구 같은
 					 RDS 관리 자동화도 함께 받는 Oracle 서비스
 
+Amazon MQ : ActiveMQ, RabbitMQ 를 AWS가 대신 운영해주는 관리형 서비스
+
 
 
 
