@@ -257,3 +257,6 @@ Route 53 : 도메인 이름을 IP 주소나 AWS 리소스로 연결해주는 DNS
 
 ElastiCache for Memcached : 단순하고 빠른 멀티스레드 인메모리 캐시로, 복잡한 기능없이 가볍게 쓰는 기능
 
+Transcribe : 음성을 글자로 받아 적어 주는 서비스
+
+Cognito : 회원가입/로그인/사용자 인증을 쉽게 붙여주는 완전관리형 서비스
