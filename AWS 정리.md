@@ -244,3 +244,8 @@ DAX : DynamoDB 앞에 붙이는 인메모리 캐시로, 읽기 응답시간을 �
 
 taskRoleArn : 컨테이너 안의 애플리케이션이 AWS 서비스를 호출할 때 사용할 IAM 역할을 지정
 
+SFTP : SSH 위에서 파일을 암호화해 주고받는 프로토콜
+
+Transfer Family : 서버 관리없이 SFTP/FTPS/FTP로 S3,EFS에 파일을 주고받을 수 있게 함
+
+Elastic Beanstalk : 코드만 올리면 EC2/로드 밸런서/ 오토 스케일링 환경을 자동으로 만들고 관리 배포 서비스
