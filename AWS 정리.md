@@ -229,7 +229,9 @@ Cloudwatch 복합알람 : Cloudwatch 알람의 상태를 AND/OR/NOT 으로 묶�
 
 Control Tower : 멀티 계정 표준 환경 자동 구축 + 예방적/탐지적 가드레일
 
-Lake Formation : S3 데이터 레이크를 빠르게 구축, 
+Lake Formation : S3 데이터 레이크를 빠르게 구축, 데이터 레이크 관리/보안 서비스
+
+Apache Parquet : 필요한 열만 읽게해서 쿼리 속도를 높이고 스캔 비용과 저장 비용을 줄임
 
 
 
