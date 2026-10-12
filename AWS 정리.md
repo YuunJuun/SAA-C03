@@ -224,7 +224,10 @@ Amazon MQ : ActiveMQ, RabbitMQ 를 AWS가 대신 운영해주는 관리형 서�
 EC2 인스턴스 세이빙스 플랜 : 리전과 인스턴스 패밀리를 고정하는 대신, 더 큰 할인을 받는 
 					 EC2 전용 시간당 금액 약정 요금제
 
+Cloudwatch 복합알람 : Cloudwatch 알람의 상태를 AND/OR/NOT 으로 묶어 조건이 만족될때만
+					알람이 울리게한다. 오탐을 방지한다.
 
+Control Tower : 멀티 계정 표준 환경 자동 구축 + 예방적/탐지적 가드레일
 
 
 
