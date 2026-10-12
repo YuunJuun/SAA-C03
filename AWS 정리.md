@@ -137,6 +137,7 @@ Kinesis Firehose : 실시간으로 들어오는 데이터를 받아서 S3, RedSh
 AWS CloudTrail : AWS API 호출 기록
 
 AWS Shield : DDOS 공격으로부터 aws 리소스를 보호해주는 서비스
+standard -> 무료 버전 , advanced -> 유료 버전, 더 크고 정교한 방어
 
 NAT Gateway : 퍼블릭 서버에 배치하고, 프라이빗 서브넷의 서버들이 밖으로 나갈 수 있게 해준다
 
