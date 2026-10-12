@@ -229,6 +229,8 @@ Cloudwatch 복합알람 : Cloudwatch 알람의 상태를 AND/OR/NOT 으로 묶�
 
 Control Tower : 멀티 계정 표준 환경 자동 구축 + 예방적/탐지적 가드레일
 
+Lake Formation : S3 데이터 레이크를 빠르게 구축, 
+
 
 
 
