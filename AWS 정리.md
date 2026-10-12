@@ -249,3 +249,11 @@ SFTP : SSH 위에서 파일을 암호화해 주고받는 프로토콜
 Transfer Family : 서버 관리없이 SFTP/FTPS/FTP로 S3,EFS에 파일을 주고받을 수 있게 함
 
 Elastic Beanstalk : 코드만 올리면 EC2/로드 밸런서/ 오토 스케일링 환경을 자동으로 만들고 관리 배포 서비스
+
+ElastiCache for Redis : 메모리에 데이터를 두는 저장소, 캐시뿐 아니라 영속성과 복제까지 지원기능 풍부
+-> 고가용성
+
+Route 53 : 도메인 이름을 IP 주소나 AWS 리소스로 연결해주는 DNS 서비스
+
+ElastiCache for Memcached : 단순하고 빠른 멀티스레드 인메모리 캐시로, 복잡한 기능없이 가볍게 쓰는 기능
+
