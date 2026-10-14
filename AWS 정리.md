@@ -281,5 +281,6 @@ Cloudwatch 메트릭 스트림 : 지표를 거의 실시간으로 계속 흘려�
 
 Lambda@Edge : Cloudfront 엣지 로케이션에서 Lambda 함수를 실행해서, 요청이나 응답을 중간에서 가공
 
+ops Overhead : 계속 서비스를 굴러가게할려고 사람이 반복해야하는 관리 작업
 
 
