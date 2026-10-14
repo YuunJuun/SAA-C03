@@ -19,6 +19,8 @@ AWS snowball edge : 대용량 데이터를 물리적인 장비에 담아 AWS로 
 
 Amazon EC2 인스턴스 : 가상서버
 
+R5 EC2 : 메모리가 넉넉한 EC2
+
 Amazon EBS : EC2에 저장공간을 더해줌
 
 Amazon Redshift : 대량의 데이터를 모아두고 분석용 SQL 쿼리를 빠르게 돌림
