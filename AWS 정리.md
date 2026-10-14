@@ -39,6 +39,9 @@ aws:PrincipalOrgPaths : 조직 내 특정 OU(부서별)
 
 vpc : 내 전용 네트워크 공간
 
+ElastiCache : 인메모리 캐시를 AWS가 관리해주는 서비스로, 자주 읽는 데이터를 메모리에 두어
+			 DB 부하를 줄이고 응답을 아주 빠르게 만들어줌
+
 게이트웨이 vpc 엔드포인트 : vpc 안의 서버가 인터넷을 거치지않고 S3나 db에 바로 접근하게 해줌
 
 amazon api gateway : api를 만들고, 배포하고, 관리해주는 완전관리형 서비스
@@ -283,4 +286,4 @@ Lambda@Edge : Cloudfront 엣지 로케이션에서 Lambda 함수를 실행해서
 
 ops Overhead : 계속 서비스를 굴러가게할려고 사람이 반복해야하는 관리 작업
 
-
+리드 리플리카 : 원본 DB의 데이터를 복제해둔 읽기 전용 사본, 읽기 요청을 여러 DB로 나누어 성능을 높인다
