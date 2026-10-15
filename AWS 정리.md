@@ -298,4 +298,5 @@ Aurora 글로벌 데이터베이스 : 하나의 Aurora 클러스터를 여러 AW
 CloudFormation : AWS 리소스들을 템플릿화하고, 그 파일 하나로 같은 환경을 자동으로 만들고, 수정하고, 삭제
 
 FSx  for NetApp ONTAP : ONTAP 파일 시스템을 AWS가 완전 관리, 하나의 스토리지로 NFS, SMB, 
-					isCSI를 모두 지원하고, 온프레미스 NET
+					isCSI를 모두 지원하고, 온프레미스 NetApp 환경과 쉽게 연동가능
+
