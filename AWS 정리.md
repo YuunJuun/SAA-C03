@@ -139,7 +139,7 @@ AWS Global Accelerator : 전 세계 어디서든 사용자가 가장 가까운 A
 
 Kinesis Firehose : 실시간으로 들어오는 데이터를 받아서 S3, RedShift 같은 저장소에 자동으로 배달
 
-AWS CloudTrail : AWS API 호출 기록
+AWS CloudTrail : AWS API 호출과 활동을 기록하는 감사 서비스
 
 AWS Shield : DDOS 공격으로부터 aws 리소스를 보호해주는 서비스
 standard -> 무료 버전 , advanced -> 유료 버전, 더 크고 정교한 방어
@@ -157,6 +157,8 @@ Amazon Macie : S3에 저장된 데이터에서 개인정보 같은 민감한 데
 AWS Systems Manager Patch Manager : EC2 인스턴스와 온프레미스 서버의 OS 소프트웨어 
 								보안 패치를 자동으로 점검하고 한꺼번에 설치해주는 기능
 
+Systems Manager Session Manager : SSH 포트나 키 없이, 브라우저나 CLI에서 EC2에 안전하게 
+								접속해 셸을 쓰게 해 주는 기능
 
 아카이브 : 자주 쓰진 않지만 삭제할 수 없는 데이터를 싸게 장기 보관
 
