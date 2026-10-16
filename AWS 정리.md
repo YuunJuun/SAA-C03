@@ -300,3 +300,8 @@ CloudFormation : AWS 리소스들을 템플릿화하고, 그 파일 하나로 �
 FSx  for NetApp ONTAP : ONTAP 파일 시스템을 AWS가 완전 관리, 하나의 스토리지로 NFS, SMB, 
 					isCSI를 모두 지원하고, 온프레미스 NetApp 환경과 쉽게 연동가능
 
+Kanaged Streaming for Apache Kafka(MSK) : kafka를 AWS가 관리, 실시간으로 쏟아지는 데이터를
+									 받아서 여러 곳에 전달하는 스트리밍 파이프라인
+
+
+
