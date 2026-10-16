@@ -303,5 +303,9 @@ FSx  for NetApp ONTAP : ONTAP 파일 시스템을 AWS가 완전 관리, 하나�
 Kanaged Streaming for Apache Kafka(MSK) : kafka를 AWS가 관리, 실시간으로 쏟아지는 데이터를
 									 받아서 여러 곳에 전달하는 스트리밍 파이프라인
 
+SSD : 빠른 임의 접근
+
+HDD : 대용량 연속 전송
+
 
 
