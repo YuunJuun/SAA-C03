@@ -1,12 +1,12 @@
 {
   "debug": false,
-  "convertRules": "\n# Line head conversion\n# Note: this rule can't apply to the very first line of the document\n'\\n》|' -> '\\n>|'\n'\\n、|' -> '\\n/|'\n\n# CN symbols to EN\n'。。|' -> '.|'\n'》》|' -> '>|'\n'、、|' -> '/|'\n'；；|' -> ';|'\n'，，|' -> ',|'\n\n# Auto-pair, Input Conversion, and Deletion\n'《《|》' -> '<|' # this one take higer priority than the next line\n'《|'    -> '《|》'\n'《|》'   -x '|'\n'（（|）' -> '(|)'\n'（|'     -> '（|）'\n'（|）'   -x '|'\n\n# Auto code block\n'··|'  -> '`|`' # inline block\n'`·|`' -> '```|\\n```'\n\n# have fun converting!\n'dpx|' -> 'don\\'t panic|'\n\n\n# Selection Insert Rules\n'·'  -> '`' + '`'\n'￥'  -> '$' + '$'\n'《'  -> '《' + '》'\n'<'  -> '<' + '>'\n",
+  "convertRules": "# 화살표 변환 (Arrow Symbols)\n'->|' -> '→|'\n'<-|' -> '←|'\n'=>|' -> '⇒|'\n'<=>|' -> '⇔|'\n \n# 원문자 변환 (Circle Numbers)\n'ㅇ1|' -> '①|'\n'ㅇ2|' -> '②|'\n'ㅇ3|' -> '③|'\n'ㅇ4|' -> '④|'\n'ㅇ5|' -> '⑤|'\n'ㅇ6|' -> '⑥|'\n'ㅇ7|' -> '⑦|'\n'ㅇ8|' -> '⑧|'\n'ㅇ9|' -> '⑨|'\n \n# 당구장 표시 (Reference Mark)\n'x*|' -> '※|'\n \n# 말줄임표 (Ellipsis)\n'...|' -> '…|'",
   "zoneIndicatorOn": false,
   "autoFormatOn": false,
   "profiles": [
     {
       "title": "global",
-      "content": "\n# Line head conversion\n# Note: this rule can't apply to the very first line of the document\n'\\n》|' -> '\\n>|'\n'\\n、|' -> '\\n/|'\n\n# CN symbols to EN\n'。。|' -> '.|'\n'》》|' -> '>|'\n'、、|' -> '/|'\n'；；|' -> ';|'\n'，，|' -> ',|'\n\n# Auto-pair, Input Conversion, and Deletion\n'《《|》' -> '<|' # this one take higer priority than the next line\n'《|'    -> '《|》'\n'《|》'   -x '|'\n'（（|）' -> '(|)'\n'（|'     -> '（|）'\n'（|）'   -x '|'\n\n# Auto code block\n'··|'  -> '`|`' # inline block\n'`·|`' -> '```|\\n```'\n\n# have fun converting!\n'dpx|' -> 'don\\'t panic|'\n\n\n# Selection Insert Rules\n'·'  -> '`' + '`'\n'￥'  -> '$' + '$'\n'《'  -> '《' + '》'\n'<'  -> '<' + '>'\n"
+      "content": "# 화살표 변환 (Arrow Symbols)\n'->|' -> '→|'\n'<-|' -> '←|'\n'=>|' -> '⇒|'\n'<=>|' -> '⇔|'\n \n# 원문자 변환 (Circle Numbers)\n'ㅇ1|' -> '①|'\n'ㅇ2|' -> '②|'\n'ㅇ3|' -> '③|'\n'ㅇ4|' -> '④|'\n'ㅇ5|' -> '⑤|'\n'ㅇ6|' -> '⑥|'\n'ㅇ7|' -> '⑦|'\n'ㅇ8|' -> '⑧|'\n'ㅇ9|' -> '⑨|'\n \n# 당구장 표시 (Reference Mark)\n'x*|' -> '※|'\n \n# 말줄임표 (Ellipsis)\n'...|' -> '…|'"
     }
   ],
   "activeProfile": "global"
