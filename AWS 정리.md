@@ -358,3 +358,6 @@ ACL : 서브넷 입구에서 들어오고 나가는 트래픽을 허용 또는 �
 
 SES : 이메일 보내는 서비스 (마케팅, 주문확인같은 대량 이메일)
 
+EC2 Savings Plan : EC2 전용 할인
+
+Compute Savings Plan : EC2 + Fargate + Lambda 할인
