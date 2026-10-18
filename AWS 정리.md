@@ -361,3 +361,6 @@ SES : 이메일 보내는 서비스 (마케팅, 주문확인같은 대량 이메
 EC2 Savings Plan : EC2 전용 할인
 
 Compute Savings Plan : EC2 + Fargate + Lambda 할인
+
+Multi-AZ 인스턴스 배포 : 고가용성, 단순하고 저렴
+Multi-AZ 클러스터 배포 : 장애 조치를 빠르게 + 읽기 분산
