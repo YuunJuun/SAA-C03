@@ -364,3 +364,5 @@ Compute Savings Plan : EC2 + Fargate + Lambda 할인
 
 Multi-AZ 인스턴스 배포 : 고가용성, 단순하고 저렴
 Multi-AZ 클러스터 배포 : 장애 조치를 빠르게 + 읽기 분산
+
+Apache Tomcat : Java로 만든 웹 애플리케이션을 실행해주는 웹 애플리케이션 서버
