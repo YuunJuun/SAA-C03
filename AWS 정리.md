@@ -369,3 +369,6 @@ Apache Tomcat : Java로 만든 웹 애플리케이션을 실행해주는 웹 애
 
 DNS 페일오버 : 주 서버가 죽으면, DNS 응답을 자동으로 예비 서버주소로 바꿔서 사용
 
+Transfer Acceleration : 멀리 있는 사용자가 S3에 파일을 업로드 할때, 가까운 cloudfront 엣지 로케이션을
+					거쳐 AWS 내부망으로 전송해서 속도를 높임
+
