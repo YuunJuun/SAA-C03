@@ -94,7 +94,7 @@ fsx for windows file server: 사내 windows 공유 폴더를 서버 관리 없�
 
 secrets manager : 데이터베이스 비밀번호, api 키 같은 민감한 정보를 안전하게 저장하고, 자동으로 교체
 
-RDS : SQL을 AWS가 대신 관리
+RDS : 관계형 데이터베이스(SQL,Postgre SQL)를 AWS가 대신 관리
 
 Amazon Aurora : 클라우드용으로 새로 설계한 mysql 호환 관계형 데이터 베이스
 				mysql 대비 최대 5배, postgreSQL 대비 최대 3배 빠름
@@ -125,7 +125,7 @@ CloudFront : 내 콘텐츠를 사용자와 가까운 엣지에 복사해두었�
 
 Cost Explorer : AWS 비용과 사용내역을 그래프로 보고 분석하며, 앞으로의 비용을 예측
 
-DynamoDB : 서버를 관리하지 않아도되고, 데이터가 아무리 많아져도 빠르게 응답
+DynamoDB : 서버를 관리하지 않아도되고, 데이터가 아무리 많아져도 빠르게 응답 (NoSQL)
 
 AWS Config : AWS의 설정을 기록하고, 변경이력을 추적하며, 정해 둔 규칙을 지키고있는지 평가
 
@@ -193,7 +193,7 @@ ECS : Docker 컨테이너를 클러스터에서 실행하고 관리해줌
 
 포트 1433 : My SQL Server DB 접속
 
-AWS DataSync : 온프레미스와 AWS 간의 파일데이터를 빠르게 옮겨주는 서비스/ 원본 쓰면서 이동 가능
+DataSync : 온프레미스와 AWS 간의 파일데이터를 빠르게 옮겨주는 서비스/ 원본 쓰면서 이동 가능(AS2 불가)
 
 AWS DMS : 데이터베이스를 AWS로 옮기거나 복제해주는 서비스, 무중단 이전 가능
 
@@ -256,7 +256,7 @@ taskRoleArn : 컨테이너 안의 애플리케이션이 AWS 서비스를 호출�
 
 SFTP : SSH 위에서 파일을 암호화해 주고받는 프로토콜
 
-Transfer Family : 서버 관리없이 SFTP/FTPS/FTP로 S3,EFS에 파일을 주고받을 수 있게 함
+Transfer Family : 서버 관리없이 SFTP/FTPS/FTP로 S3,EFS에 파일을 주고받을 수 있게 함/AS2 지원
 
 Elastic Beanstalk : 코드만 올리면 EC2/로드 밸런서/ 오토 스케일링 환경을 자동으로 만들고 관리 배포 서비스
 
@@ -374,4 +374,5 @@ Transfer Acceleration : 멀리 있는 사용자가 S3에 파일을 업로드 할
 
 액티브-액티브 페일오버 : 여러곳이 평소에도 트래픽을 처리하다가, 한 곳이 죽으면 나머지가 부하를 이어받음
 
-Workload Discovery : AWS에 배포된 AWS 리소스를 자동으로 찾아서 아키텍처 다이어그램을 
+Workload Discovery : AWS에 배포된 AWS 리소스를 자동으로 찾아서 아키텍처 다이어그램으로 시각화
+
