@@ -378,3 +378,4 @@ Workload Discovery : AWS에 배포된 AWS 리소스를 자동으로 찾아서 �
 
 AppFlow : SaaS 앱과 AWS 서비스 사이에서 데이터를 코드없이 주고받게 해주는 관리형 데이터 통합 서비스
 
+할인공유 : AWS Organ
