@@ -23,7 +23,7 @@ R5 EC2 : 메모리가 넉넉한 EC2
 
 Amazon EBS : EC2에 저장공간을 더해줌
 
-Amazon Redshift : 대량의 데이터를 모아두고 분석용 SQL 쿼리를 빠르게 돌림
+Amazon Redshift : 대량의 데이터를 모아두고 분석용 SQL 쿼리를 빠르게 돌림/ 암호화 지원
 
 Amazon CloudWatch : aws의 리소스와 애플리케이션을 모니터링하는 서비스
 
