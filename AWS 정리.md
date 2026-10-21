@@ -396,3 +396,5 @@ IAM Identity Center : 여러 AWS 계정과 업무용 앱에 한번 로그인으�
 
 Storage Gateway : 온프레미스 서버가 평소에 쓰던 방식으로 접근하면서, 뒤에서는 데이터를 aws에 저장
 
+Service catalog : 조직이 승인한 AWS 리소스 묶음 목록을 만들어두고, 사용자가 목록에서 골라 배포하게 함
+
