@@ -410,3 +410,8 @@ VTL : 테이프 장비를 소프트웨어로 흉내낸 가상의 테이프 보�
 
 EKS Connector : AWS 밖에 있는 온프레미스 쿠버네티스를 등록해서, 한 곳에서 볼 수 있게 해줌
 
+ACU : aurora serverless 의 용량단위로 2GIB 규모이며, 사용량에 따라 자동확장 및 쓴 만큼만 요금 부과
+
+Lamda SnapStart : 콜드 스타트를 줄이는 기능으로, 스냅샷을 찍어놨다가 그 스냅샷에서 빠르게 시작
+(Provisioned Concurrency는 미리 켜두는 기능으로 비용 더 큼)
+
