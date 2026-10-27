@@ -99,6 +99,8 @@ Amazon SQS : 메시지를 큐에 쌓아두고, 소비자가 가져가서 처리�
 SMB : 네트워크로 연결된 다른 컴퓨터의 폴더와 파일을 공유하는 프로토콜
 
 S3 Glacier deep archive : 가장 저렴한, 장기 보관 전용 클래스, 1년에 한 두번 꺼낼까 말까한 데이터 보관
+Glacier Flexible Retrieval : 싸지만 꺼내는데 분~시간이 걸림
+Glacier Instant Retrieval : 바로 꺼낼 수 있음
 
 fsx for windows file server: 사내 windows 공유 폴더를 서버 관리 없이 aws 에서 그대로 쓸 수 있게 해줌
 
@@ -437,5 +439,8 @@ RDS 블루/그린 배포 : 현재 운영중인 환경은 그대로 두고, 새 �
 				한번에 전환하여 배포
 
 FSx for Lustre : 대량의 데이터를 매우 빠르게 읽고 쓰는 고성능 병렬 파일 시스템. (초고속)
+Lustre 퍼시스턴트 : 고가용성, 장기보관, 데이터 손실 안됨, 지속적
+Lustre 스크래치 : 임시, 단기, 비용절감, 데이터는 다시 만들 수 있음
+
 
 
