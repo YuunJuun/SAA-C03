@@ -42,7 +42,9 @@
     "//JDBC",
     "//멋사/멋사/Serverlet  JSP",
     "/",
-    "//Tags"
+    "//Tags",
+    "//SAA-C03",
+    "//멋사"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
