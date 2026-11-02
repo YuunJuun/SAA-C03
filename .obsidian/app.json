@@ -1,10 +1,11 @@
 {
   "promptDelete": false,
-  "smartIndentList": false,
+  "smartIndentList": true,
   "spellcheck": false,
   "autoPairBrackets": true,
   "autoConvertHtml": false,
   "showIndentGuide": true,
   "autoPairMarkdown": false,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "strictLineBreaks": false
 }
